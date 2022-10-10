@@ -13,4 +13,7 @@ After the algorithm is applied, the set of points that defines the drawing is re
 ![image](https://user-images.githubusercontent.com/72406655/194962811-6e6fcba9-8fdb-413e-96ff-098f667bdc1e.png)
 
 ## Epsilon Parameter
+```python
+douglas_peucker(points, epsilon)
+```
 The epsilon parameter is linked to the smoothness of the resulting shape in the curve decimation context, in our use case the parameter dictates the amount of edges the final polygon will have.
